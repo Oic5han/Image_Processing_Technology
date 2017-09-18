@@ -1,40 +1,40 @@
-% --- ‰Šú‰» ---
+% --- åˆæœŸåŒ– ---
 clear
 
-% --- Œ´‰æ‘œ‚Ì“Ç‚İ‚İ‚Æ•\¦ ---
-original = imread('https://raw.githubusercontent.com/Oic5han/Image_Processing_Technology/master/Balloon.bmp');  % GitHubã‚Ì•W€‰æ‘œ‚ÌURL
-imagesc(original); axis image;  % ‰æ‘œ‚Ì•\¦
-pause;                          % ˆê’â~
+% --- åŸç”»åƒã®èª­ã¿è¾¼ã¿ã¨è¡¨ç¤º ---
+original = imread('https://raw.githubusercontent.com/Oic5han/Image_Processing_Technology/master/images/Balloon.bmp');  % GitHubä¸Šã®æ¨™æº–ç”»åƒã®URL
+imagesc(original); axis image;  % ç”»åƒã®è¡¨ç¤º
+pause;                          % ä¸€æ™‚åœæ­¢
 
-% --- k¬‚ÆŠg‘å‚ğs‚¢‰æ‘œ‚ğr‚­‚µ‚Ä‚¢‚­ ---
-% 1‰ñ–Ú
-IMG = imresize(original,0.5);   % ‰æ‘œ‚ğ0.5”{‚Ék¬
-IMG2 = imresize(IMG,2,'box');   % ‰æ‘œ‚ğ2”{‚ÉŠg‘å
-imagesc(IMG2); axis image;      % ‰æ‘œ‚Ì•\¦
-pause;                          % ˆê’â~
+% --- ç¸®å°ã¨æ‹¡å¤§ã‚’è¡Œã„ç”»åƒã‚’è’ãã—ã¦ã„ã ---
+% 1å›ç›®
+IMG = imresize(original,0.5);   % ç”»åƒã‚’0.5å€ã«ç¸®å°
+IMG2 = imresize(IMG,2,'box');   % ç”»åƒã‚’2å€ã«æ‹¡å¤§
+imagesc(IMG2); axis image;      % ç”»åƒã®è¡¨ç¤º
+pause;                          % ä¸€æ™‚åœæ­¢
 
-% 2‰ñ–Ú
-IMG = imresize(IMG,0.5);        % ‰æ‘œ‚ğ0.5”{‚Ék¬
-IMG2 = imresize(IMG,4,'box');   % ‰æ‘œ‚ğ4”{‚ÉŠg‘å
-imagesc(IMG2); axis image;      % ‰æ‘œ‚Ì•\¦
-pause;                          % ˆê’â~
+% 2å›ç›®
+IMG = imresize(IMG,0.5);        % ç”»åƒã‚’0.5å€ã«ç¸®å°
+IMG2 = imresize(IMG,4,'box');   % ç”»åƒã‚’4å€ã«æ‹¡å¤§
+imagesc(IMG2); axis image;      % ç”»åƒã®è¡¨ç¤º
+pause;                          % ä¸€æ™‚åœæ­¢
 
-% 3‰ñ–Ú
-IMG = imresize(IMG,0.5);        % ‰æ‘œ‚ğ0.5”{‚Ék¬
-IMG2 = imresize(IMG,8,'box');   % ‰æ‘œ‚ğ8”{‚ÉŠg‘å
-imagesc(IMG2); axis image;      % ‰æ‘œ‚Ì•\¦
-pause;                          % ˆê’â~
+% 3å›ç›®
+IMG = imresize(IMG,0.5);        % ç”»åƒã‚’0.5å€ã«ç¸®å°
+IMG2 = imresize(IMG,8,'box');   % ç”»åƒã‚’8å€ã«æ‹¡å¤§
+imagesc(IMG2); axis image;      % ç”»åƒã®è¡¨ç¤º
+pause;                          % ä¸€æ™‚åœæ­¢
 
-% 4‰ñ–Ú
-IMG = imresize(IMG,0.5);        % ‰æ‘œ‚ğ0.5”{‚Ék¬
-IMG2 = imresize(IMG,16,'box');  % ‰æ‘œ‚ğ16”{‚ÉŠg‘å
-imagesc(IMG2); axis image;      % ‰æ‘œ‚Ì•\¦
-pause;                          % ˆê’â~
+% 4å›ç›®
+IMG = imresize(IMG,0.5);        % ç”»åƒã‚’0.5å€ã«ç¸®å°
+IMG2 = imresize(IMG,16,'box');  % ç”»åƒã‚’16å€ã«æ‹¡å¤§
+imagesc(IMG2); axis image;      % ç”»åƒã®è¡¨ç¤º
+pause;                          % ä¸€æ™‚åœæ­¢
 
-% 5‰ñ–Ú
-IMG = imresize(IMG,0.5);        % ‰æ‘œ‚ğ0.5”{‚Ék¬
-IMG2 = imresize(IMG,32,'box');  % ‰æ‘œ‚ğ32”{‚ÉŠg‘å
-imagesc(IMG2); axis image;      % ‰æ‘œ‚Ì•\¦
+% 5å›ç›®
+IMG = imresize(IMG,0.5);        % ç”»åƒã‚’0.5å€ã«ç¸®å°
+IMG2 = imresize(IMG,32,'box');  % ç”»åƒã‚’32å€ã«æ‹¡å¤§
+imagesc(IMG2); axis image;      % ç”»åƒã®è¡¨ç¤º
 
 
 return
