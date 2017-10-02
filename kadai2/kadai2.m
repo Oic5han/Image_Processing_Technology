@@ -19,9 +19,9 @@ axis image;                                     % 座標軸の縦横比を真の
 pause;                                          % 一時停止
 
 % --- 4階調画像の生成 ---
-IMG0 = original>64;                             % 最も濃い黒(1/4)
-IMG1 = original>128;                            % 次に濃い(2/4)
-IMG2 = original>192;                            % その次に濃い(3/4)
+IMG0 = original>64;                             % 1/4
+IMG1 = original>128;                            % 2/4
+IMG2 = original>192;                            % 3/4
 IMG_4tone = IMG0+IMG1+IMG2;                     % 全て足し合わせる → 4階調
 imagesc(IMG_4tone);                             % IMG_4toneの表示
 colormap(gray);                                 % カラーマップをグレーに設定
