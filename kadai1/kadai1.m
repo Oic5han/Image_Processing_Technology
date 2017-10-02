@@ -2,9 +2,9 @@
 clear
 
 % --- 原画像の読み込みと表示 ---
-original = imread('https://raw.githubusercontent.com/Oic5han/Image_Processing_Technology/master/images/Balloon.bmp');  % GitHub上の標準画像のURL
-imagesc(original); axis image;  % 画像の表示
-pause;                          % 一時停止
+original = imread('https://goo.gl/aGYCsn');   % GitHub上の標準画像のURL
+imagesc(original); axis image;                % 画像の表示
+pause;                                        % 一時停止
 
 % --- 縮小と拡大を行い画像を荒くしていく ---
 % ピクセル数1/2
